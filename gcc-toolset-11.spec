@@ -5,7 +5,7 @@
 Summary: Package that installs %scl
 Name: %scl_name
 Version: 11.1
-Release: 2%{?dist}
+Release: 3%{?dist}
 License: GPLv2+
 Group: Applications/File
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
