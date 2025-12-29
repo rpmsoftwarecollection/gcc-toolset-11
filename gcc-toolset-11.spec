@@ -36,8 +36,8 @@ Obsoletes: %{name}-runtime < %{version}-%{release}
 Requires(post): %{_root_sbindir}/semanage %{_root_sbindir}/restorecon
 Requires(postun): %{_root_sbindir}/semanage %{_root_sbindir}/restorecon
 %else
-Requires(post): libselinux policycoreutils-python
-Requires(postun): libselinux policycoreutils-python
+Requires(post): libselinux policycoreutils-python-utils
+Requires(postun): libselinux policycoreutils-python-utils
 %endif
 
 %description runtime
